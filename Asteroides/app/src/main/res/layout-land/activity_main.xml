@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTituloLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_asteroides"
+        android:textSize="24sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_gravity="center_horizontal"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnJugar"
+                style="@style/BotonJugar"
+                android:text="@string/boton_jugar"
+                android:layout_marginRight="8dp" />
+
+            <Button
+                android:id="@+id/btnConfigurar"
+                style="@style/BotonConfig"
+                android:text="@string/boton_configurar"
+                android:layout_marginLeft="8dp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnAcercaDe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/BotonACSR"
+                android:text="@string/boton_acerca_de"
+                android:layout_marginRight="8dp" />
+
+            <Button
+                android:id="@+id/btnSalir"
+                style="@style/BotonACSR"
+                android:text="@string/boton_salir"
+                android:layout_marginLeft="8dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

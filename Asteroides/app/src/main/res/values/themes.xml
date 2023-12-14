@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Asteroides" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:typeface">serif</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="BotonJugar" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFF00</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">#00FFFF</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="BotonConfig" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FF00FF</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">#00FF00</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+        <style name="BotonACSR" parent="Widget.AppCompat.Button">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:background">@android:color/darker_gray</item>
+            <item name="android:layout_marginTop">8dp</item>
+        </style>
+    <style name="Theme.Asteroides" parent="Base.Theme.Asteroides" />
+    <color name="ColorPrimary">#008577</color>
+    <color name="ColorPrimaryDark">#005748</color>
+    <color name="ColorAccent">#D81B60</color>
+    <color name="textColor">#0000FF</color>
+</resources>

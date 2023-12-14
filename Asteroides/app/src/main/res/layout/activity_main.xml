@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/activity_main.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_asteroides"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnJugar"
+        style="@style/BotonJugar"
+        android:onClick="mostrarPreferencia"
+        android:text="@string/boton_jugar" />
+
+    <Button
+        android:id="@+id/btnConfigurar"
+        style="@style/BotonConfig"
+        android:onClick="lanzarPreferencia"
+        android:text="@string/boton_configurar" />
+
+    <Button
+        android:id="@+id/btnAcercaDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="lanzarAcercaDe"
+        style="@style/BotonACSR"
+        android:text="@string/boton_acerca_de" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        style="@style/BotonACSR"
+        android:onClick="lanzarPuntuaciones"
+        android:text="@string/boton_salir" />
+
+</LinearLayout>
